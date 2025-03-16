@@ -31,7 +31,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
     console.log("Sending Data:", formData); // Debugging
 
     // Send data using no-cors to avoid 405 preflight request
-    fetch("https://script.google.com/macros/s/AKfycbwUy0Ei7NjFzrGXK__5sjb-t2QrLdRtusuN6MwfoRIHm97ETBCfPCxQ-vmzujWwlbI/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzsds51eHRqHJOE-IqmJEn488xdfR5tMZm-8PIUzqGHmy15PI8VwujxSEIsQThL-LG3/exec", {
         method: "POST",
         mode: "no-cors",  // ✅ Prevents OPTIONS preflight request
         headers: { "Content-Type": "application/x-www-form-urlencoded" }, // ✅ Avoids triggering CORS issues
