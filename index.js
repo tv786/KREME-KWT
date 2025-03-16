@@ -58,15 +58,12 @@ document.getElementById("form").addEventListener("submit", function (e) {
 
 // Add Item Functionality
 const itemOptions = [
-    'MILK 1LTR',
-    'CREAM 1LTR',
-    'MILK POWDER',
-    'GHEE 500ML',
-    'GHEE 1000ML',
-    'SONAI TM POUCH 450ML',
-    'Flv_Milk - Badam',
-    'Flv_Milk - Strawberry',
-    'Flv_Milk - Chocolate',
+    'Jaggery 1kg',
+    'Jaggery 500gm',
+    'Jaggery Cubes',
+    'Jaggery Powder 1kg',
+    'Jaggery Powder 500gm'
+
 ];
 
 function addRow() {
