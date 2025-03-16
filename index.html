@@ -39,8 +39,8 @@
                         <th>Item Name</th>
                         <th>Item Qty</th>
                         <th>Items Unit</th>
-                        <th>Item Rate (₹)</th>
-                        <th>Total Amount (₹)</th>
+                        <th>Item Rate (KWD)</th>
+                        <th>Total Amount (KWD)</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -51,7 +51,7 @@
             <button type="button" onclick="addRow()">Add Item</button>
         </div>
         <div class="field">
-            <label for="addAmount"  class="label">Add (+) (₹):</label>
+            <label for="addAmount"  class="label">Add (+) (KWD):</label>
             <div class="control">
                 <input type="number" id="addAmount" name="addAmount" min="0" step="0.01" class="input" oninput="updateTotalInvoiceAmount()">
             </div>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="field">
-            <label for="totalInvoiceAmount" class="label">Total Invoice Amount (₹):</label>
+            <label for="totalInvoiceAmount" class="label">Total Invoice Amount (KWD):</label>
             <div class="control">
                 <input type="text" id="totalInvoiceAmount" name="totalInvoiceAmount" class="input" readonly>
             </div>
